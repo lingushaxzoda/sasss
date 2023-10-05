@@ -1,0 +1,49 @@
+
+.footer {
+    height: 120px;
+    background-color: #2C343E;
+}
+
+.foot_a{
+    margin-top: 50px;
+}
+
+.footer .container {
+    display: flex;
+}
+.foot_list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 55px;  
+}
+.foot_item:nth-child(2){
+    margin: 0px 50px;
+}
+
+.foot_text {
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+    color: #83888F;
+}
+
+.foot_text:hover{
+    color: #FEFCF7;
+}
+
+.foot_ul{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+.foot_li{
+    margin: 0px 10px;
+}
+.foot_svg:hover{
+    background-color:  #FDD6BA;
+    cursor: pointer;
+}

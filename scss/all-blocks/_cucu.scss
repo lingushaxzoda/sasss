@@ -1,0 +1,37 @@
+.cucu .container{
+    width: 1045px;
+    margin-top: 150px;
+}
+.cucu_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cucu_item + .cucu_item{
+    padding-left: 50px;
+}
+.cucu_heading {
+    color: #83888F;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.cucu_h3 {
+    color: #333D4B;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.cucu_p {
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
